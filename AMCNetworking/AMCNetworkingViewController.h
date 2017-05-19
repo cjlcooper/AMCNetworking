@@ -10,4 +10,6 @@
 
 @interface AMCNetworkingViewController : UIViewController
 
+- (void)networkActionTest;
+
 @end
