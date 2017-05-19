@@ -14,6 +14,7 @@
 		683C419A1ECEC7FF0079E731 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 683C41991ECEC7FF0079E731 /* Assets.xcassets */; };
 		683C419D1ECEC7FF0079E731 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 683C419B1ECEC7FF0079E731 /* LaunchScreen.storyboard */; };
 		683C41A81ECEC8000079E731 /* AMCNetworkingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 683C41A71ECEC8000079E731 /* AMCNetworkingUITests.m */; };
+		683C41B41ECEC8530079E731 /* AMCNetworkingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 683C41B31ECEC8530079E731 /* AMCNetworkingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		683C41A31ECEC8000079E731 /* AMCNetworkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMCNetworkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		683C41A71ECEC8000079E731 /* AMCNetworkingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMCNetworkingUITests.m; sourceTree = "<group>"; };
 		683C41A91ECEC8000079E731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		683C41B21ECEC8530079E731 /* AMCNetworkingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMCNetworkingViewController.h; sourceTree = "<group>"; };
+		683C41B31ECEC8530079E731 /* AMCNetworkingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMCNetworkingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				683C41911ECEC7FF0079E731 /* AppDelegate.m */,
 				683C41931ECEC7FF0079E731 /* ViewController.h */,
 				683C41941ECEC7FF0079E731 /* ViewController.m */,
+				683C41B21ECEC8530079E731 /* AMCNetworkingViewController.h */,
+				683C41B31ECEC8530079E731 /* AMCNetworkingViewController.m */,
 				683C41961ECEC7FF0079E731 /* Main.storyboard */,
 				683C41991ECEC7FF0079E731 /* Assets.xcassets */,
 				683C419B1ECEC7FF0079E731 /* LaunchScreen.storyboard */,
@@ -213,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				683C41B41ECEC8530079E731 /* AMCNetworkingViewController.m in Sources */,
 				683C41951ECEC7FF0079E731 /* ViewController.m in Sources */,
 				683C41921ECEC7FF0079E731 /* AppDelegate.m in Sources */,
 				683C418F1ECEC7FF0079E731 /* main.m in Sources */,
